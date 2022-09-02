@@ -1,5 +1,18 @@
 /* #ff0a54 */
 
+.btn-custom {
+    background-color: #ff0a54;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 0px!important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.btn-custom:hover{
+    background-color: #ff0a90;
+    color: #ffffff;
+}
+
 /* Top bar stylings */
     .top-bar h3{
         color: #ff0a54;
@@ -14,3 +27,28 @@
         color: #ff0a54;
     }
 /* Top bar stylings */
+
+/* Pricing stylings */
+    .pricing{
+        /* padding-top: 100px;
+        padding-bottom: 100px; */
+        background: linear-gradient(45deg, #ff0a5319, #ff0a534d, #ff0a5319), url('./images/3.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .pricing .card{
+        border-top: 5px solid #ff0a54;
+    }
+
+    .pricing .card.recommend{
+        background-color: #ff0a54;
+        color: #ffffff;
+    }
+
+    .pricing .card.recommend .btn-custom{
+        background-color: #ffffff;
+        color: #ff0a54;
+    }
+/* Pricing stylings */
